@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Manrope:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-base.min.js"></script>
+    <script defer type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <div class="balance">
+      <div>
+        <p class="subtitle">My balance</p>
+        <p class="balance-total title"></p>
+      </div>
+      <img src="./images/logo.svg" alt="" />
+    </div>
+    <div class="spending">
+      <h1 class="spending-title">Spending - Last 7 days</h1>
+      <canvas id="spending-chart"></canvas>
+      <hr />
+      <div class="spending-summary">
+        <div>
+          <p class="spending-subtitle">Total this month</p>
+          <p class="spending-total"></p>
+        </div>
+        <div>
+          <p class="spending-rate">+2.4%</p>
+          <p class="spending-subtitle spending-date">from last month</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>

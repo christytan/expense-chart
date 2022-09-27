@@ -1,0 +1,117 @@
+<!--
+  Feel
+  free
+  to
+  remove
+  these
+  styles
+  or
+  customise
+  in
+  your
+  own
+  stylesheet
+  👍
+  --
+  * {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "DM Sans";
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(27, 66%, 92%);
+}
+
+/* balance section */
+
+.balance {
+  width: 450px;
+  height: 115px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+
+.balance-total {
+  color: hsl(27, 66%, 92%);
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* spending section */
+.spending {
+  width: 490px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+
+  margin-top: 20px;
+}
+.spending-title {
+  padding-left: 20px;
+}
+#spending-chart {
+  padding: 20px;
+}
+
+/* spending summary */
+.spending-summary {
+  padding: 0px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spending-subtitle {
+  padding-top: 20px;
+  color: hsl(28, 10%, 53%);
+  margin: 0px;
+}
+.spending-total {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px;
+
+  padding-bottom: 20px;
+}
+
+.spending-rate {
+  margin: 0px;
+}
+.spending-date {
+  padding-top: 0px;
+}
+
+/* common color */
+.title {
+  font-size: 27px;
+}
+.subtitle {
+  color: hsl(27, 66%, 92%);
+  font-size: 18px;
+}
+
+hr {
+  display: block;
+  width: 90%;
+  border-color: hsla(27, 66%, 92%, 0.202);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
