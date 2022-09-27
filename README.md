@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/christytan/expense-chart)
+- Live Site URL: [Add live site URL here](https://ct-expense-chart.netlify.app/)
 
 ## My process
 
